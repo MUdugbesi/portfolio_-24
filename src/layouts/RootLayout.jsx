@@ -8,7 +8,7 @@ const RootLayout = () => {
             <div className='md:w-[25%] lg:w-[15%] max-sm:absolute max-sm:z-10'>
                 <Header />
             </div>
-            <div className='w-[80%] md:w-[70%] mx-auto h-[200vh]'>
+            <div className='w-[80%] md:w-[70%] mx-auto h-[auto] overflow-hidden'>
                 <Outlet />
             </div>
         </div>
