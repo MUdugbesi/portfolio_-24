@@ -22,7 +22,7 @@ const Contact = () => {
                     <FaLinkedin className='size-7 text-[#ea7373e7] hover:scale-[1.2] hover:cursor-pointer' />
                     <a href='mailto:udugbesimarves@gmail.com'>Udugbesimarves@gmail.com</a>
                 </div>
-                <div className='box border-b-[#5294b37d] md:flex-row h-[100px] justify-evenly items-center p-4' >
+                <div className='box border-b-[#5294b37d] md:flex-row h-[100px] justify-between items-center p-4' >
                     <FaWhatsapp className='size-7 text-[#ea7373e7] hover:scale-[1.2] hover:cursor-pointer' />
                     <a href='mailto:udugbesimarves@gmail.com'>+2348068616270</a>
                 </div>
