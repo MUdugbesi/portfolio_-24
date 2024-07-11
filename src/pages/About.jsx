@@ -6,7 +6,7 @@ import { HiUserGroup } from "react-icons/hi2";
 const About = () => {
     return (
         <>
-            <div className='flex flex-col h-auto justify-between font-Lato mt-[30px] pt-[20px] mb-[20px] w-full' id='about' data-aos='zoom-in'>
+            <div className='flex flex-col h-auto justify-between font-Lato mt-[30px] pt-[20px] mb-[20px] w-full max-sm:overflow-hidden' id='about' data-aos='zoom-in'>
                 <div>
                     <p className='font-[900] tracking-widest text-[#ffffffc8] uppercase text-[14px] mb-[50px]'>About Me</p>
                 </div>

@@ -28,7 +28,7 @@
   }
 
   .about_grid {
-    @apply grid grid-cols-1 md:grid-cols-3 h-auto md:h-[200px] w-full lg:w-[90%] mx-auto gap-[50px]  md:gap-[30px] lg:gap-[50px] mt-[80px] font-Lato font-[600] uppercase tracking-wider
+    @apply grid grid-cols-1 md:grid-cols-3 h-auto md:h-[200px] w-full lg:w-[90%] mx-auto gap-[50px] md:gap-[30px] lg:gap-[50px] mt-[80px] font-Lato font-[600] uppercase tracking-wider
   }
 
   .title {
@@ -45,5 +45,13 @@
 
   .experience {
     @apply border-none hover:border-2 hover:border-[#3140c4] hover:bg-[#20236fa1] p-[10px_10px_20px_10px] rounded-lg transition-all ease-in-out duration-300 hover:cursor-pointer
+  }
+
+  .project_box {
+    @apply h-[420px] md:h-[500px] rounded-md shadow-md
+  }
+
+  .contact_box {
+    @apply box border-b-[#5294b37d] w-[80%] md:w-[100%] lg:w-full mx-auto flex-col lg:flex-row h-[120px] md:h-[120px] lg:h-[150px] justify-evenly items-center p-4
   }
 }
