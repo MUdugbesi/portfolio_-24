@@ -26,8 +26,8 @@ const Hero = () => {
 
     return (
 
-        <div className='pt-[50px]' id='home' data-aos='fade-right'>
-            <h1 className='text-[50px] font-IBM font-[600] leading-[55px] mb-5 tracking-[0.08em]'>I am a <span ref={el} className='text-[#f2d326]'></span><br />
+        <div className='pt-[50px] z-1' id='home' data-aos='fade-right'>
+            <h1 className='text-[40px] lg:text-[50px] font-IBM font-[600] leading-[55px] mb-5 tracking-[0.08em]'>I am a <span ref={el} className='text-[#f2d326]'></span><br />
                 Developer</h1>
             <p className='font-[lato] tracking-wide text-[#ffffffc9]'>My personal portfolio built with React.js <FaReact className='inline text-[#22b5ea] text-[25px]' /> and TailwindCSS <RiTailwindCssFill className='inline text-[#0e85d9] text-[25px]' /></p>
         </div>

@@ -5,7 +5,7 @@ import SkillsComponent from '../components/SkillsComponent';
 
 const Skills = () => {
     return (
-        <div className='pt-[150px]' id='skills'>
+        <div className='mt-[100px] pt-[20px]' id='skills'>
             <p className='title'>My Skills</p>
             <div>
                 <SkillsComponent />

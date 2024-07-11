@@ -7,7 +7,7 @@ import { SiExpress, SiFirebase, SiMongodb } from 'react-icons/si';
 
 const SkillsComponent = () => {
     return (
-        <div className='grid grid-cols-5 gap-5'>
+        <div className='grid lg:grid-cols-5 gap-5 md:grid-cols-4 grid-cols-2'>
             <div className='box_skill' data-aos='fade-up' data-aos-delay='100'>
                 <div className='bg-[#ea7373ec] skill_icon work-info'>
                     <FaHtml5 className='size-20 p-2' />

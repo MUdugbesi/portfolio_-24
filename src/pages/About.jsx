@@ -6,17 +6,17 @@ import { HiUserGroup } from "react-icons/hi2";
 const About = () => {
     return (
         <>
-            <div className='flex flex-col h-[auto] justify-between font-Lato pt-[50px] mb-[20px] w-full' id='about' data-aos='zoom-in'>
+            <div className='flex flex-col h-auto justify-between font-Lato mt-[30px] pt-[20px] mb-[20px] w-full' id='about' data-aos='zoom-in'>
                 <div>
                     <p className='font-[900] tracking-widest text-[#ffffffc8] uppercase text-[14px] mb-[50px]'>About Me</p>
                 </div>
-                <p className='tracking-wider mb-[30px]'>I'm Marvelous Udugbesi, a dedicated and passionate Full Stack Software Engineer and IT enthusiast with passion for crafting intuitive and visually appealing user interfaces and functionalities. With over three years of personal learning experience, I specialize in building efficient web applications using React.js and Next.js.</p>
+                <p className='tracking-wider mb-[30px] max-sm:text-justify'>I'm Marvelous Udugbesi, a dedicated and passionate Full Stack Software Engineer and IT enthusiast with passion for crafting intuitive and visually appealing user interfaces and functionalities. With over three years of personal learning experience, I specialize in building efficient web applications using React.js and Next.js.</p>
 
-                <p className='tracking-wider mb-[30px] ' data-aos='zoom-in' data-aos-delay='200'>
+                <p className='tracking-wider mb-[30px] max-sm:text-justify ' data-aos='zoom-in' data-aos-delay='200'>
                     Currently, I work as an HNG Intern, where I develop sophisticated Web User Interfaces for the organisation and create in-house software to streamline operations and boost productivity working hands in hands with other professionals. I also mentor new developers, contributing to their growth and development.
                 </p>
 
-                <p className='tracking-wider' data-aos='zoom-in' data-aos-delay='400'>
+                <p className='tracking-wider max-sm:text-justify' data-aos='zoom-in' data-aos-delay='400'>
                     Previously, I developed and managed a comprehensive web application that allows user to create, view and edit campgrounds around the world. This role deepened my expertise in both front-end and back-end technologies.
                 </p>
 

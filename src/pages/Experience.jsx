@@ -4,12 +4,12 @@ import { MdOutlineWork } from 'react-icons/md';
 
 const Experience = () => {
     return (
-        <div className='mt-[120px] pb-[60px]' id='experience'>
+        <div className='mt-[100px] pt-[20px] pb-[60px]' id='experience'>
             <p className='title' data-aos='fade-in'>
                 Experience
             </p>
             <div className='relative h-auto after:content-[""] after:absolute after:top-0 after:h-full after:w-[2px] after:border-2 after:border-[white] font-IBM after:left-[-30px] ml-[30px] after:rounded-md'>
-                <MdOutlineWork className='size-8 p-1 relative left-[-45px] top-[60px] text-[black] z-10 border-2 bg-[white] rounded-full' />
+                <MdOutlineWork className='size-8 p-1 relative left-[-45px] top-[60px] text-[black] z-5 border-2 bg-[white] rounded-full' />
                 <div className='experience' data-aos="fade-left" style={{ transition: '0.8s' }} >
                     <p className='text-sm text-[#ffffffb8] m-[20px_0px_5px]'>Udemy | January 2023 - September 2023
                     </p>
@@ -22,7 +22,7 @@ const Experience = () => {
                         Create single page applications with AJAX.
                         Recognise and prevent common security exploits like SQL-Injection & XSS.</p>
                 </div>
-                <MdOutlineWork className='size-8 p-1 relative left-[-45px] top-[60px] text-[black] z-10 border-2 bg-[white] rounded-full' />
+                <MdOutlineWork className='size-8 p-1 relative left-[-45px] top-[60px] text-[black] z-5 border-2 bg-[white] rounded-full' />
                 <div className='experience ' data-aos="fade-left" style={{ transition: '0.8s' }} data-aos-delay='300'>
                     <p className='text-sm text-[#ffffffb8] m-[20px_0px_5px]'>Codecademy | October 2023 - Present
                     </p>
@@ -34,7 +34,7 @@ const Experience = () => {
                         Implemented user authentication and API integration.
                         Developed and maintained resusabe code libraries, while keeping track of changes and their effects on existing functionality</p>
                 </div>
-                <MdOutlineWork className='size-8 p-1 relative left-[-45px] top-[60px] text-[black] z-10 border-2 bg-[white] rounded-full' />
+                <MdOutlineWork className='size-8 p-1 relative left-[-45px] top-[60px] text-[black] z-5 border-2 bg-[white] rounded-full' />
                 <div className='experience' data-aos="fade-left" style={{ transition: '0.8s' }} data-aos-delay='400'>
                     <p className='text-sm text-[#ffffffb8] m-[20px_0px_5px]'>HNG INTERNSHIP | October July 2024 - Present
                     </p>

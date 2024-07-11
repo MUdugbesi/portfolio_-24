@@ -12,7 +12,7 @@
 
 @layer components {
   .header {
-    @apply h-screen fixed w-[15%] bg-gradient-to-b from-[#02125a] via-[#142fa8] to-[#051040] flex flex-col
+    @apply hidden h-screen md:fixed md:w-[25%] lg:w-[15%] bg-gradient-to-b from-[#02125a] via-[#142fa8] to-[#051040] md:flex md:flex-col
   }
 
   .ul {
@@ -24,11 +24,11 @@
   }
 
   .box {
-    @apply border-b-2 bg-transparent rounded-lg shadow-md shadow-[#373e79ce] flex flex-col justify-evenly pl-[20px] hover:scale-[1.1] hover:cursor-pointer transition-all ease-in-out delay-75 duration-300
+    @apply h-[200px] md:h-auto border-b-2 bg-transparent rounded-lg shadow-md shadow-[#373e79ce] flex flex-col justify-evenly pl-[20px] hover:scale-[1.1] hover:cursor-pointer transition-all ease-in-out delay-75 duration-300
   }
 
   .about_grid {
-    @apply grid grid-cols-3 h-[200px] w-[90%] mx-auto gap-[50px] mt-[80px] font-Lato font-[600] uppercase tracking-wider
+    @apply grid grid-cols-1 md:grid-cols-3 h-auto md:h-[200px] w-full lg:w-[90%] mx-auto gap-[50px]  md:gap-[30px] lg:gap-[50px] mt-[80px] font-Lato font-[600] uppercase tracking-wider
   }
 
   .title {
