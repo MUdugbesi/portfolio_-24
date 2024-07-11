@@ -30,8 +30,8 @@ const Header = () => {
             </div>
         </div>
 
-        {!toggleNav ? <div className='max-sm:flex fixed md:hidden header p-5'>
-            <MdClose className='z-30' size={20} onClick={handleClick} />
+        {!toggleNav ? <div className='max-sm:flex fixed md:hidden header p-5' data-aos='fade-down' data-aos-duration='800' data-aos-easing='elinear'>
+            <MdClose className='z-30' size={24} onClick={handleClick} />
             <div className='w-full h-full mx-auto pt-[50px]'>
                 <img src={ProfileImg} alt='profilePic' className='size-40 rounded-full hover:scale-[1.05] hover:cursor-pointer transition-all ease-linear duration-300 hover:shadow-md hover:shadow-[#000]' />
                 <h1 className='uppercase text-center mt-5 font-[600] text-[white] '>Marvelous Udugbesi</h1>

@@ -16,15 +16,15 @@ const Contact = () => {
                 </div>
                 <div className='contact_box' data-aos='fade-left' data-aos-delay="600" >
                     <FaGithub className='size-7 text-[#ea7373e7] hover:scale-[1.2] hover:cursor-pointer' />
-                    <a href='mailto:udugbesimarves@gmail.com' className='text-sm'>GitHub</a>
+                    <a href='https://github.com/MUdugbesi' className='text-sm'>GitHub</a>
                 </div>
                 <div className='contact_box' data-aos='fade-right' data-aos-delay="800">
                     <FaLinkedin className='size-7 text-[#ea7373e7] hover:scale-[1.2] hover:cursor-pointer' />
-                    <a href='mailto:udugbesimarves@gmail.com' className='text-sm'>LinkedIn</a>
+                    <a href='https://www.linkedin.com/in/udugbesi-marvelous-2a51b11a5' className='text-sm'>LinkedIn</a>
                 </div>
                 <div className='contact_box' data-aos='fade-left' data-aos-delay="1000" >
                     <FaWhatsapp className='size-7 text-[#ea7373e7] hover:scale-[1.2] hover:cursor-pointer' />
-                    <a href='mailto:udugbesimarves@gmail.com' className='text-sm'>+2348068616270</a>
+                    <a href='' className='text-sm'>+2348068616270</a>
                 </div>
             </div>
         </div >

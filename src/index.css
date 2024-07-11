@@ -16,8 +16,9 @@
   }
 
   .ul {
-    @apply flex flex-col h-[25%] items-center justify-between mt-10 text-[#ffffff91] uppercase text-[12px]
+    @apply flex flex-col h-[25%] items-center justify-between mt-10 text-[#ffffff91] uppercase text-[12px] leading-10 md:leading-[60px]
   }
+
 
   .nav-item {
     @apply tracking-[1px] hover:text-[white] hover:cursor-pointer active:text-[red] transition-all ease-in-out duration-300
