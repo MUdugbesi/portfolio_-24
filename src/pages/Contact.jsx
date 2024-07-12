@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <div className='mt-[120px] pb-[60px] font-Lato' data-aos="fade-right">
             <p className='title'>Get in Touch</p>
-            <p className='text-sm md:text-[18px] lg:w-[90%] md:leading-6 lg:leading-8 border'>Impressed with my work & skills? Want to work with me? You can reach out to me through the social media handles below or you can simply give me a call <FaPhone className='inline' /></p>
+            <p className='text-sm md:text-[18px] lg:w-[90%] md:leading-6 lg:leading-8'>Impressed with my work & skills? Want to work with me? You can reach out to me through the social media handles below or you can simply give me a call <FaPhone className='inline' /></p>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-[40px] max-sm:w-[80%] mx-auto'>
                 <div className='contact_box' data-aos='fade-right' data-aos-delay="500">
