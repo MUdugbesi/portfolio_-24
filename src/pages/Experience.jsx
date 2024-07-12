@@ -36,7 +36,7 @@ const Experience = () => {
                 </div>
                 <MdOutlineWork className='size-8 p-1 relative left-[-45px] top-[60px] text-[black] z-20 border-2 bg-[white] rounded-full' />
                 <div className='experience' data-aos="fade-left" style={{ transition: '0.8s' }} data-aos-delay='400'>
-                    <p className='text-sm text-[#ffffffb8] m-[20px_0px_5px]'>HNG INTERNSHIP | October July 2024 - Present
+                    <p className='text-sm text-[#ffffffb8] m-[20px_0px_5px]'>HNG INTERNSHIP | July 2024 - Present
                     </p>
                     <p className='font-[900] text-[22px] uppercase m-[0px_0px_20px]'>Front End Developer</p>
                     <p className='text-[] font-[500]'>Build a stylized and interactive website with HTML, CSS and JS.
